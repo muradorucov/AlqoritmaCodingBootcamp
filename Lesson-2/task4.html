@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>Simple Site</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<h1>Pac-Man</h1>
+<h2>General information</h2>
+<p>Pac-Man is an arcade video game released in 1980, developed by the Japanese company Namco. The player's task is to control Pacman to eat all the points in the maze, avoiding meeting the ghosts that are chasing the hero.</p>
+<p>In Japan, the created game was called Puck-Man (<b> Japanese パ ッ ク マ ン pakkuman</b> ), but when localized in the US, Midway changed the name to Pac-Man, believing that with the original name, children could paint over the middle of the P, turning it into an F, and making the word obscene.</p>
+<h2>Game Characters</h2>
+
+<p>The main character Pacman was made friendly so people could associate themselves with him. The role of enemies in Pac-Man is played by four colorful ghosts:</p>
+
+<ul>
+
+<li><b>Blinky</b> : A red ghost, stalking Pacman without much fuss.</li>
+<li><b>Pinky</b> : A pink ghost that targets a position 32 pixels from the front of the protagonist.</li>
+<li><b>Inca</b> : a blue ghost trying to get to a point found using a special algorithm, taking into account the position of the following objects:
+<ol>
+<li>player;</li>
+<li>another ghost - Blinky.</li>
+</ol></li>
+<li><b>Clyde</b> : an orange ghost, which, depending on the distance from the main character, chases Pacman, then goes to the lower left corner of the maze.</li>
+</ul>
+
+<h2>Level 256</h2>
+The first person to beat Pac-Man was American Billy Mitchell. When the creator of the game, Tohru Iwatani, met with him, Billy asked if some of the features he discovered had been deliberately allowed. Iwatani consulted with colleagues and replied as follows:
+<br>
+<i>
+<p>Mr. Mitchell. We do not know. The game was not supposed to last that long.</p>
+</i>
+<p>As conceived by the developers, Pac-Man was not supposed to have an end, since the increasing complexity of the game would not allow it to go far. However, some players were able to complete 255 levels of the game, which took several hours, and at 256 level they discovered the manifestation of a programming error in the form of a «screen of death».</p>
+
+<br>
+<p>
+The reason for this error is the procedure that calculates the bonuses under the maze. When level 256 is reached, it loads the value 255 into the CPU register and increments it by one. 255 is the maximum value that can fit in a Zilog Z80 processor register, so when incremented by 1, an integer overflow occurs and zero is written to the register.<p>
+
+<p>If the register value is less than 7, then the subroutine considers that this is one of the first levels on which to draw bonus symbols. After drawing, the register (currently equal to zero) is decremented by one and a «bottom overflow» occurs: a negative number cannot be written in the register, and 255 is placed in it. The drawing cycle is performed with decreasing the register value until it becomes equal to 0 (i.e. 256 times). The images of bonuses in the game are stored in a special table. Since its size is less than 256, the subroutine leaves the table and starts using data that is not intended for this.</p>
+
+<h2>Reprints</h2>
+<p>
+In 2010, on the 30th anniversary of the game, Google introduced a thematic <a href="https://www.google.com/logos/2010/pacman10-i.html">«doodle» . The maze design was a Google logo, but the graphics, sounds, and ghost behavior patterns copied the original game. When you press the «Insert coin» button again, Mrs. Pacman appears on the screen, and the game can be played together on the same keyboard.</a>
+</p>
+<p><a href="https://www.google.com/logos/2010/pacman10-i.html">Pac-Man has been featured in numerous compilations of games from Namco (for example, the Namco Museum series) and compilations of the Pac-Man series. Some of them are presented below.</a></p>
+<table>
+    <thead>
+        <tr>
+           <th> Collection title </th>
+           <th> First Release Date </th>
+           <th> Included Games </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td> Namco Museum Vol. 1 </td>
+        <td> PlayStation: November 22, 1995 </td>
+        <td> <ul>
+              <li> Bosconian [en], </li>
+              <li> Galaga, </li>
+              <li> New Rally X [en], </li>
+              <li> Pac-Man, </li>
+              <li> Pole Position, </li>
+              <li> Rally X, Toy Pop </li>
+             </ul> </td>
+        </tr>
+        <tr>
+          <td> Pac-Man Collection </td>
+          <td> GameBoy Advance: Jul 12, 2001 </td>
+          <td>
+            <ul>
+              <li> Pac-Attack, </li>
+              <li> Pac-Man, </li>
+              <li> Pac-Man Arrangement, </li>
+              <li> Pac-Mania </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td> Namco Museum </td>
+          <td> Nintendo Switch: July 28, 2017 </td>
+          <td>
+             <ul>
+              <li> Dig Dug, </li>
+              <li> Galaga '88, </li>
+              <li> Pac-Man, </li>
+              <li> Pac-Man Vs., </li>
+              <li> Rolling Thunder 1, 2, </li>
+              <li> Sky Kid </li>
+              <li> Splatterhouse, </li>
+              <li> Tank Force </li>
+              <li> The Tower of Druaga </li>
+            </ul>
+          </td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
+
