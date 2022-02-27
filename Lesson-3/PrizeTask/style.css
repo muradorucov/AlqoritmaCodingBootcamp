@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+
+th{
+    color:lightgrey;
+}
+td, th{
+    border:solid #b0a160 1px;
+    padding: 4px 40px;
+}
