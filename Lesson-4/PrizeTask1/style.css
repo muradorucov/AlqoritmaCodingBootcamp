@@ -1,0 +1,25 @@
+body{
+    color: white;
+}
+li{
+    list-style-position: inside;
+}
+li:first-child{
+    background-color:black;
+}
+li:nth-child(2){
+    background-color:silver;  
+}
+li:nth-child(3){
+    background-color:gray;  
+}
+li:nth-child(4){
+    background-color:white; 
+    color: black; 
+}
+li:nth-child(5){
+    background-color:maroon;  
+}
+li:last-child{
+    background-color:red;        
+}

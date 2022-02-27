@@ -1,0 +1,13 @@
+.title {
+    font-size: 26px;
+    color: blue;
+  }
+  .main-info {
+    color: darkgrey;
+  }
+  .additional-info {
+    font-style: italic;
+  }
+  .date {
+    font-size: 11px;
+  }
