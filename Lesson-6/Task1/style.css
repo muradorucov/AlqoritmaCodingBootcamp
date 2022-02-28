@@ -1,0 +1,42 @@
+body{
+    font-family: Lato, sans-serif;
+    font-size: 11px;
+    padding: 10px;
+}
+.box{
+    width:100%;
+    height: 100%;
+}
+.main-box{
+    width: 500px;
+}
+.main-box p{
+    height: 50px;
+    margin: 0 0 5px;
+    padding: 18px;
+    color: #fff;
+    box-sizing: border-box;
+}
+p:first-child{
+    width: 463px;
+    background-color: red;
+}
+p:nth-child(2){
+    width: 373px;
+    background-color: lightblue;
+    color: #000;
+}
+p:nth-child(3){
+    width: 303px;
+    background-color: bisque;
+    color: #000;
+}
+p:nth-child(4){
+    width: 242px;
+    background-color: cyan;
+    color: #000;
+}
+p:last-child{
+    width: 192px;
+    background-color: black;
+}
