@@ -1,0 +1,7 @@
+p{
+    background-color: cyan;
+}
+p:nth-last-child(2){
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
