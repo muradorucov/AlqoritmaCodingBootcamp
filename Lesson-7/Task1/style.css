@@ -1,0 +1,13 @@
+.goods-item {
+    font-family: sans-serif;
+    background-color: #ba99e4;
+    padding: 50px;
+    border-radius: 3px;
+    margin: 0 10px;
+  }
+  .goods{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  

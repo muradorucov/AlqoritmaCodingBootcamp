@@ -1,0 +1,77 @@
+
+.kredit-card{
+    width: 315px;
+    height: 200px;
+    background-color: #8A2BE2;
+    margin:10px;
+    color:white;
+    border-radius:10px ;
+    padding-left: 15px;
+    font-family:'Courier New', Courier, monospace ;
+}
+#imgchip{
+    width: 50px;
+    padding-top:35px;
+    margin-left:-5px;
+}
+.card-number{
+    font-weight: 200;
+    font-size: 25px;
+    text-align:left;
+    padding-bottom:0px;
+    margin: 0;
+    margin-top:-5px;
+}
+.card-name{
+    font-weight: bold;
+    font-size:20px;
+    padding-bottom:15px;
+    padding-top:0;
+    margin:0;
+    font-family: monospace;
+}
+.val{
+    font-size:9px;
+    padding: 0;
+    margin:0;
+    font-family: 'Tahoma', sans-serif
+}
+
+.val ,.date{
+    font-family: 'Tahoma', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+#imgvisa{
+    width: 100px;
+    display: inline;
+    position: relative;
+    right: 20px;
+    bottom: 12px;
+}
+#imgmaster{
+    width: 70px;
+    display: inline;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+#visa{
+    display: flex;
+}
+#mastercard{
+    display: flex;
+}
+.black{
+    background-color: black;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
