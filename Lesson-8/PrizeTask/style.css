@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: Roboto, Monospace;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    text-align: start;
+    font-size: 16px;
+    height: 40px;
+}
+tr:nth-child(odd){
+    background-color: #FF66FF;
+}
+tr:nth-child(even){
+    background-color: #f8f8f8;
+}
+tr:first-child, tr:last-child{
+    background-color: blueviolet;
+    color: white;
+}
+tr:hover{
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+}
+tr:first-child:hover, tr:last-child:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.voen{
+    background-color: rgb(202, 187, 202);
+    display: none;
+}
+tr:hover .voen{
+    color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+tr:nth-child(2):hover .voen{
+    top: 40px;
+    left: 100px;
+}
+tr:nth-child(3):hover .voen{
+    top: 80px;
+    left: 100px;
+}
+tr:nth-child(4):hover .voen{
+    top: 120px;
+    left: 100px;
+}
+tr:nth-child(5):hover .voen{
+    top: 160px;
+    left: 100px;
+}
+tr:nth-child(6):hover .voen{
+    top: 200px;
+    left: 100px;
+}
+tr:nth-child(7):hover .voen{
+    top: 240px;
+    left: 100px;
+}
+tr:nth-child(8):hover .voen{
+    top: 280px;
+    left: 100px;
+}
+tr:nth-child(9):hover .voen{
+    top: 320px;
+    left: 100px;
+
+}
+tr:nth-child(10):hover .voen{
+    top: 360px;
+    left: 100px;
+}
+tr:nth-child(11):hover .voen{
+    top: 420px;
+    left: 100px;
+}
+tr:nth-child(12):hover .voen{
+    top: 460px;
+    left: 100px;
+}
+tr:nth-child(13):hover .voen{
+    top: 510px;
+    left: 100px;
+}
+tr:nth-child(14):hover .voen{
+    top: 550px;
+    left: 100px;
+}
+tr:nth-child(15):hover .voen{
+    top: 590px;
+    left: 100px;
+}
+tr:nth-child(16):hover .voen{
+    top: 630px;
+    left: 100px;
+}

@@ -1,0 +1,21 @@
+.goods {
+    padding: 40px;
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .goods-item {
+    font-family: sans-serif;
+    background-color: #ba99e4;
+    padding: 50px;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  
+  .goods-item:last-child {
+    margin-right: 0;
+  }
+  .goods-item:hover{
+    position: relative;
+    bottom: 5px;
+  }

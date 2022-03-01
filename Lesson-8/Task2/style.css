@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: Roboto, Monospace;
+}
+main{
+    display: flex;
+    max-width: 780px;
+    margin:auto;
+}
+article{
+    width: 80%;
+}
+aside{
+    background-color: Lavender;
+    padding: 20px;
+    width: 20%;
+}
+.author{
+    margin: 0;
+    padding: 5px;
+    background-color: lavender;
+    font-weight: 400;
+    font-size: 12px;
+    width: 200px;
+}
+aside ul{
+    padding: 0;
+}
+aside ul li{
+    list-style: none;
+}
+aside p{
+    margin: 0;
+}
+/*main end*/
+
+/*header start*/
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 780px;
+    margin:auto;
+}
+ .main-menu{
+    display: flex;
+ }
+.main-menu img{
+    height: 50px;
+}
+.menu{
+    padding: 0;
+}
+.menu li{
+    padding: 0px 25px;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+}
+
+.avatar {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #833ae0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
