@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Uncle Bob</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="one">
+      <h2>Minimize code duplication</h2>
+      <p>
+        Keeping code DRY and maintainable is one of the biggest challenges in software development, and that applies to CSS as well. In practice, one big component of maintainable code is minimizing the amount of edits necessary to make a change. When values depend on each other, try to reflect their relationship in the code.
+      </p>
+    </div>
+    <div class="two">
+      <h2>On Responsive Web Design</h2>
+      <p>
+        The common practice is testing a website in multiple resolutions and adding more and more media queries to fix the issues that arise. However, every media query adds overhead to future CSS changes, and they should not be added lightly. Here are a few more tips to avoid needless media queries: Use percentages or viewport-relative units instead of fixed widths. When you want a fixed width for larger resolutions, use max-width, not width. When using multi-column text, specify column-width instead of column-count, so that you get one column only in small resolutions.
+      </p>
+    </div>
+    <div class="three">
+      <h2>Use shorthands wisely</h2>
+      <p>
+        You could of course try to set all the longhands and call it a day, but then you might forget some. Or the CSS WG might introduce more long- hands in the future, and your code will have failed to reset those. Don't be afraid of shorthands. It is good defensive coding and future-proofing to use them, unless we intentionally want to use cascaded properties for everything else.
+      </p>
+    </div>
+  </div>
+</body>
+</html>

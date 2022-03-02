@@ -1,0 +1,17 @@
+.wrapper{
+    width: 960px;
+    border: 2px solid red;
+    display: flex;
+}
+.one, .two, .three{
+    width: 33%;
+}
+
+@media (max-width: 960px) {
+    .wrapper{
+        display: block;
+    }
+    .one, .two, .three{
+        width:90%;
+    }    
+}

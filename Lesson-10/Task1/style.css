@@ -1,0 +1,15 @@
+.wrapper{
+    width: 80%;
+    display: flex;
+}
+.left{
+    width: 22%;
+    height:calc( 100vh *40 / 100);
+    background-color: cyan;
+    margin-right: 10px;
+}
+.right{
+    width: 75%;
+    height: calc(100vh - 300px);
+    background-color: coral;
+}
