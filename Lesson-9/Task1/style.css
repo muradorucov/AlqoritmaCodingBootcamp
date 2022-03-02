@@ -1,0 +1,9 @@
+.photo-with-tip{
+    position: relative;
+}
+
+.photo-with-tip:hover .tip{
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
