@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: Roboto;
+}
+section{
+    padding: 30px 100px;
+}
+h2{
+    font-family: Roboto Slab;
+    font-size: 55px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    width: 60%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+}
+.img-one{
+    width: 314px;
+    height: 315px;
+}
+.container-two, .main-item{
+    display: flex;
+    align-items: center;
+}
+.img-two{
+    width: 232px;
+    height: 203px;
+}
+.main-item{
+    width: 55%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.item h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.item span{
+    font-size: 18px;
+}
+/* 1440px-840-375-0 */
+@media screen and (min-width:840px ) and (max-width: 1120px) {
+    .image-2{
+        display: none;
+    }
+    h2{
+        font-size: 32px;
+    }
+    p{
+        width: 383.41px;
+        font-size: 14px;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+    }
+    .main-item{
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+    .img-one{
+        width: 181.86px ;
+        height: 181.86px;
+    }
+    .item h3{
+        font-size: 15px;
+    }
+    .item span{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 840px) {
+    h2{
+        font-size: 26px;
+    }
+    .container{
+        display: block;
+    }
+    p{
+        font-size: 12px;
+        width: 100%;
+    }
+    .img-one{
+        width: 170.55px;
+        height: 160.29px;
+    }
+    .image-2{
+        display: none;
+    }
+    .main-item{
+        margin-left: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    .item h3{
+        font-size: 12px;
+    }
+    .item span{
+        font-size: 10px;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+    }
+}
