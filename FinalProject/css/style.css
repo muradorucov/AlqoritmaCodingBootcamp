@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400;500;600;900&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    width: 85%;
+    margin: 0px auto;
+}
+
+/* Grid-System */
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0px;
+}
+.col-1{
+    width: calc(100%/12*1);
+}
+.col-2{
+    width: calc(100%/12*2);
+}
+.col-3{
+    width: calc(100%/12*3);
+}
+.col-4{
+    width: calc(100%/12*4);
+}
+.col-5{
+    width: calc(100%/12*5);
+}
+.col-6{
+    width: calc(100%/12*6);
+}
+.col-7{
+    width: calc(100%/12*7);
+}
+.col-8{
+    width: calc(100%/12*8);
+}
+.col-9{
+    width: calc(100%/12*9);
+}
+.col-10{
+    width: calc(100%/12*10);
+}
+.col-11{
+    width: calc(100%/12*11);
+}
+.col-12{
+    width: calc(100%/12*12);
+}
+/* Flex Center */
+.flex-left{
+    justify-content: left;
+}
+
+.padding-col-3{
+    padding: 22px 18px;
+}
+/* Umumi P Tag-inin ortaq xususiyyetlerinin yazilmasi */
+p{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+/* Umumi H1 Tag-inin ortaq xususiyyetlerinin yazilmasi */
+h1 , h2,h3{
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    vertical-align: top;
+}
+
+/* Boyuk Siriftli H1 tag-ucun ortaq style-nin yazilmasi */
+.lg-h1{
+    font-size: 55px;
+    Line-height :56px;
+    color: #000000;
+}
+
