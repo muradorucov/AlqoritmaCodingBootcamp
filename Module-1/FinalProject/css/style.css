@@ -65,7 +65,7 @@
     padding: 22px 18px;
 }
 /* Umumi P Tag-inin ortaq xususiyyetlerinin yazilmasi */
-p{
+p, .main-item span{
     font-weight: 400;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
