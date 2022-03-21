@@ -1,6 +1,6 @@
-var yash = prompt(" Zəhmət olmasa doğulduğunuz ili yazın");
-if (yash>2022){
+let year = prompt(" Zəhmət olmasa doğulduğunuz ili yazın");
+if (year>2022 || year<1900){
     console.log("Yalnış tarix ((")
 }else{
-    console.log( "Indiyə kimi yaşadığınız günlərin sayı = "+ (2022-yash)*365);
+    console.log( "Indiyə kimi yaşadığınız günlərin sayı = "+ (2022-year)*365);
 }
