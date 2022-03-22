@@ -1,4 +1,4 @@
-let firstName = 'Alan';
-let lastName = 'Turing';
+let firstName = 'Murad';
+let lastName = 'Orucov';
 
-console.log("Sizi bir daha görməyimizə şadıq, " + firstName + " " + lastName)
+console.log(`Sizi bir daha görməyimizə şadıq, ${firstName} ${lastName}`)
