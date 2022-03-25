@@ -16,3 +16,22 @@ for (let i = beginNumber; i > 0; i--) {
         }
     }
 }
+
+// if (beginNumber > 0) {
+//     while (beginNumber >= 0) {
+//         let c = 0;
+//         let j = 1;
+//         while (j <= beginNumber) {
+//             if (beginNumber % j == 0) {
+//                 c++;
+//             }
+//             j++;
+//         }
+//         if (c == 2) {
+//             console.log(beginNumber);
+//         }
+//         beginNumber--;
+//     }
+// } else {
+
+// }
