@@ -10,4 +10,14 @@ let salary = [
     [80, 80, 80, 80, 80, 80, 80, 90, 90, 90, 90, 90],
     [75, 75, 75, 75, 75, 75, 75, 75, 75, 75, 70, 75]
 ];
-console.log(salary)
+
+function getAnnualSalary() {
+    for (let i = 0; i < salary.length; i++) {
+        console.log(salary[i].reduce(getSum, 0));
+
+        function getSum(total, num) {
+            return total + Math.round(num);
+        }
+    }
+}
+getAnnualSalary();
