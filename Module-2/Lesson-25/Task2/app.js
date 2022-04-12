@@ -1,5 +1,6 @@
-const textArr = ['qırmızı', 'ağ', 'göy', 'yaşıl'];
-const newTextArr = textArr.find((item) => {
-    return item.length == 3;
-})
-console.log(newTextArr);
+const header = document.querySelector('h1');
+const parentElement = document.querySelector('ul');
+const newElement = document.createElement('li');
+header.remove();
+newElement.innerHTML = 'TITAN RTX';
+parentElement.append(newElement);
