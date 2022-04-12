@@ -1,5 +1,8 @@
-const textArr = ['qırmızı', 'ağ', 'göy', 'yaşıl'];
-const newTextArr = textArr.find((item) => {
-    return item.length == 3;
-})
-console.log(newTextArr);
+const elements = document.querySelectorAll('li');
+elements.forEach((element) => {
+    element.classList.add('item');
+    if (element.classList.contains('primary') == false) {
+        element.classList.add('secondary');
+    }
+    console.log(element)
+});

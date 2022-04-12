@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+table.currency {
+    border-collapse: collapse;
+}
+
+table.currency tr {
+    border-bottom: 1px solid #ece6e6;
+}
+
+table.currency th {
+    background: #eff1f5;
+    padding: 10px;
+    text-align: center;
+}
+
+table.currency td {
+    padding: 4px;
+    text-align: center;
+}
+
+table.currency td:nth-child(3) {
+    text-align: left;
+}
+
+td.increase {
+    color: green;
+}
+
+td.decrease {
+    color: red;
+}
