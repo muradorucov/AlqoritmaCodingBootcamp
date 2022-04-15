@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;600&display=swap');
+body {
+    font-family: Roboto, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+table.goods {
+    border-collapse: collapse;
+}
+
+table.goods tr {
+    border-bottom: 1px solid #ece6e6;
+}
+
+table.goods th {
+    background: #fffeea;
+    padding: 10px;
+    text-align: center;
+}
+
+table.goods th:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+table.goods td {
+    padding: 8px 40px;
+}
+
+table.goods tr>td:last-child,
+table.goods tr>td:nth-child(3) {
+    text-align: center;
+}
