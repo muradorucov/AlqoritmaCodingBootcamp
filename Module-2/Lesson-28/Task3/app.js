@@ -1,5 +1,5 @@
-let names = ['Sam', 'Alan', 'Bill', 'Adam', 'Anna', 'George'];
-const newNames = names.filter((item) => {
-    return item[0] == 'A';
+document.addEventListener('keyup', (event) => {
+    if (event.keyCode === 13) {
+        console.log(event.key);
+    }
 });
-console.log(newNames);

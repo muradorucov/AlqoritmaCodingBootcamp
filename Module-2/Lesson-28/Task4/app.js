@@ -1,8 +1,10 @@
-function addTax(price) {
-    let newPrice = price.map((item) => {
-        return item + ((item * 20) / 100);
-    });
-    console.log(newPrice);
-    console.log(typeof(price[0]));
-};
-addTax([12, 35, 5, 3, 54]);
+const element = document.querySelector('.show');
+const elementUl = document.querySelector('ul');
+
+element.addEventListener('click', () => {
+    if (elementUl.style.display === 'none') {
+        elementUl.style.display = 'block';
+    } else {
+        elementUl.style.display = 'none';
+    }
+});

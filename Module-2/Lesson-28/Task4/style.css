@@ -1,0 +1,48 @@
+.countainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.blog {
+    width: 70%;
+    background-color: rgb(167, 195, 231);
+    border-radius: 10px;
+}
+
+h1 {
+    line-height: 50px;
+    font-family: system-ui;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.text,
+.show {
+    margin: 0px 20px 0px 20px;
+}
+
+.show button {
+    width: 35%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #8da1a8;
+    border: none;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.show button:hover {
+    background-color: #76bcd3;
+    cursor: pointer;
+}
+
+p,
+ul li {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+ul {
+    display: none;
+}

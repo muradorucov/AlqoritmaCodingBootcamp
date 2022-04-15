@@ -1,0 +1,53 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.volume-level-block {
+    background: #fff;
+    box-shadow: 0 5px 20px #E4E4E6;
+    width: 500px;
+    padding: 40px;
+}
+
+.volume-level-block .flex {
+    display: flex;
+}
+
+.volumeBarMain {
+    flex-grow: 1;
+}
+
+.volume-bar {
+    width: 100%;
+    border: 1px solid #cccccc;
+    height: 20px;
+    cursor: pointer;
+    background: #FFA310;
+}
+
+.volume-level-block .flex .button {
+    border: 1px solid #cccccc;
+    width: 20px;
+    height: 20px;
+    margin: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.volume-level-block .flex .button:hover {
+    background: #FFA310;
+    color: white;
+}
+
+.volume-level-block .value {
+    text-align: center;
+    font-weight: bold;
+}
