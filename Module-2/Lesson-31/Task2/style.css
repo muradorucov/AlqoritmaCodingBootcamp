@@ -1,0 +1,21 @@
+input,
+button,
+select,
+textarea {
+    background-color: bisque;
+    outline: 0;
+    border: 1px solid bisque;
+    border-radius: 3px;
+    width: 300px;
+    padding: 5px;
+}
+
+button {
+    background-color: tan;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.subscribe {
+    width: 40px;
+}

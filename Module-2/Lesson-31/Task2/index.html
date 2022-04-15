@@ -6,11 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <form class="user-form">
+
+        <label>Ad Soyad:<br>
+        <input class="name" name="name" type="text" required>
+        </label>
+        <br><br>
+
+        <label>Vəsiqə seriyası və nömrəsi:<br>
+        <input class="cardnum" name="cardnum" type="text" required>
+        </label>
+        <br><br>
+
+        <label>Cins:<br>
+        <select class="gender" name="gender">
+            <option value='Kişi'>Kişi</option>
+            <option value='Qadın'>Qadın</option>
+            <option value='Digər'>Digər</option>
+        </select>
+        </label>
+        <br><br>
+
+        <label>Yaş:<br>
+        <input class="age" name="age" type="number">
+        </label>
+        <br><br>
+
+        <label>Telefon nömrəsi:<br>
+        <input class="phone" name="phone" type="tel">
+        </label>
+        <br><br>
+
+        <label>Simptomların təsviri:<br>
+        <textarea class="desc" name="desc" rows="10" cols="40"></textarea>
+        </label>
+        <br><br>
+
+        <label> Təkrar qəbul:
+        <input class="subscribe" type="checkbox">
+        </label>
+        <br><br>
+
+        <button>Göndər</button>
+    </form>
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
