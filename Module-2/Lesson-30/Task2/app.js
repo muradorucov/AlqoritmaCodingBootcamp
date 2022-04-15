@@ -1,5 +1,8 @@
-const textArr = ['qırmızı', 'ağ', 'göy', 'yaşıl'];
-const newTextArr = textArr.find((item) => {
-    return item.length == 3;
+const nameInput = document.querySelector('input');
+const textarea = document.querySelector('textarea');
+const btn = document.querySelector('.comment-send');
+
+btn.addEventListener('click', () => {
+    console.log(nameInput.value)
+    console.log(textarea.value)
 })
-console.log(newTextArr);
