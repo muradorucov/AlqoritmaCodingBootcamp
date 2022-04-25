@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Feedback Section start */
+.feedback-item{
+    background: #EFEFEF;
+    padding-top: 62px;
+    padding-bottom: 94px;
+}
+.course-feedback h2, .training-item h2{
+    font-weight: bold;
+    font-size: 55px;
+}
+.course-feedback h2{
+    margin-bottom: 60px;
+}
+.feedback{
+    width: 791px;
+    height: 451px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    background: #ffffff;
+    border-radius: 30px;
+    margin-left: 5px;
+    padding: 0 50px;
+    padding-left: 26px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: all ease-out .3s;
+}
+.feedback:hover{
+    filter: drop-shadow(0px 4px 4px rgba(19, 18, 18, 0.664));
+    transform: scale(1.01);
+    transition: all ease .3s;
+}
+.feedback-desc p{
+    font-size: 20px;
+    line-height: 150%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    cursor: context-menu;
+}
+.user-info{
+    padding-left: 29px;
+}
+.user-profile{
+    display: flex;
+}
+.user-profile h3{
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 23px;
+}
+.social-icon{
+    width: 32px;
+    height: 31px;
+}
+/* Feedback Section end */
+
+/* Training-Info Section start */
+.training-item{
+    background: #9DC9C8;
+    border-radius: 13px;
+    padding-top: 157px;
+    padding-bottom: 180px;
+}
+.training-item h2{
+    padding-bottom: 36px;
+}
+.justify-start{
+    justify-content: start !important;
+}
+.course-price{
+    padding-bottom: 45px;
+}
+.price-desc{
+    font-size: 25px;
+}
+.price{
+    font-size: 80px;
+}
+.course-info-head{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.course-info-desc{
+    font-size: 18px;
+    padding-right: 70px;
+    line-height: 18.25px;
+}
+/* Training-Info Section end */
+
+/* Footer start */
+.footer{
+    padding-top: 32px;
+    padding-bottom: 28px;
+    background: #000000;
+}
+.footer-logo{
+    width: 115px;
+    height: 68px;
+    margin-bottom: 25px;
+}
+.social-icons{
+    display: flex;
+}
+.social-icon{
+    width: 33px;
+    height: 33px;
+    margin-right: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.contact-item{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.contact-icon{
+    width: 27px;
+    height: 27px;
+    margin-right: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.contact-item p{
+    font-size: 25px;
+    line-height: 25.35px ;
+    color: #FFFFFF;
+}
+.synchronization{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 125px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Footer end */
+
+@media screen and (max-width:1279px) and (min-width:834px){
+    /* Feedback Section start */
+    .feedback-item{
+        padding-top: 32px;
+        padding-bottom: 50px;
+    }
+    .course-feedback h2{
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+    .feedback{
+        width: 458.12px;
+        height: 261.2px;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        margin-left: 3px;
+    }
+    .feedback-desc p{
+        font-size: 12px;
+        padding-top: 24px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+    }
+    .profile{
+        width: 110.04px;
+        height: 97.88px;
+    }
+    .user-profile{
+        margin-top: 7px;
+        position: relative;
+        left: -10px;
+    }
+    .user-info{
+        padding-left: 18px;
+    }
+    .user-profile h3{
+        font-size: 17px;
+        padding-top: 19px;
+        padding-bottom: 14px;
+    }
+    .social-icon{
+        width: 18.53px;
+        height: 17.95px;
+    }
+    /* Feedback Section end */
+
+    /* Training-Info Section start */
+    .training-item{
+        border-radius: 0;
+        padding-top: 95px;
+        padding-bottom: 100px;
+    }
+    .training-item h2{
+        font-size: 32px;
+        padding-bottom: 15px;
+    }
+    .course-price{
+        padding-bottom: 22px;
+    }
+    .price-desc{
+        font-size: 14px;
+    }
+    .price{
+        font-size: 46px;
+    }
+    .course-info-head{
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+    .course-info-desc{
+        font-size: 10px;
+        line-height: 10.14px;
+        padding-right: 44%;
+    }
+    /* Training-Info Section end */
+
+    /* Footer start */
+    .footer{
+        padding-top: 25px;
+        padding-bottom: 19px;
+    }
+    .footer-logo{
+        width: 66.6px;
+        height: 39.38px;
+        margin-bottom: 15px;
+    }
+    .social-icon{
+        width: 19.11px;
+        height: 19.11px;
+        margin-right: 10px;
+    }
+    .contact-item{
+        margin-top: 14px;
+        margin-bottom: 3px;
+    }
+    .top0{
+        margin-top: 0px;
+    }
+    .contact-icon{
+        width: 15.64px;
+        height: 15.64px;
+        margin-right: 13px;
+    }
+    .contact-item p{
+        font-size: 14px;
+    }
+    .synchronization{
+        font-size: 10px;
+        margin-top: 71px;
+    }
+    /* Footer end */
+}
+
+@media screen and (max-width:834px){
+    /* Feedback Section start */
+    .feedback-item{
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .course-feedback h2{
+        width: 257px;
+        line-height: 26.36px;
+        font-size: 26px;
+        margin-bottom: 27px;
+    }
+    .feedback{
+        width: 308px;
+        height: 248px;
+        border-radius: 13.98px;
+        margin-left: 0px;
+        padding-right: 27px;
+        padding-left: 20px;
+    }
+    .feedback-desc p{
+        font-size: 10px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+    }
+    .flex-justiyf-center{
+        display: flex;
+        justify-content: center;
+    }
+    .profile{
+        height: 84px;
+    }
+    .user-profile{
+        margin-top: 7px;
+        position: relative;
+        left: -10px;
+    }
+    .user-info{
+        padding-left: 10px;
+    }
+    .user-profile h3{
+        font-size: 14px;
+        padding-top: 17px;
+        padding-bottom: 14px;
+    }
+    .social-icon{
+        width: 14.91px;
+        height: 17.2px;
+    }
+    /* Feedback Section end */
+
+    /* Training-Info Section start */
+    .training-item{
+        border-radius: 0;
+        padding-top: 55px;
+        padding-bottom: 65px;
+    }
+    .training-item h2{
+        width: 224px;
+        font-size: 26px;
+        line-height: 26.36px;
+        padding-bottom: 15px;
+    }
+    .course-price{
+        padding-bottom: 15px;
+    }
+    .price-desc{
+        font-size: 12px;
+    }
+    .price{
+        font-size: 37px;
+    }
+    .course-info-head{
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    .course-info-desc{
+        font-size: 10px;
+        line-height: 10.14px;
+        padding-right: 15%;
+    }
+    .justify-start{
+        justify-content: start !important;
+        display: -webkit-box !important;
+    }
+    .col-x-6{
+        width: calc(100%/12*6) !important;
+    }
+    /* Training-Info Section end */
+    /* Footer start */
+    .footer{
+        padding-top: 17px;
+        padding-bottom: 15px;
+    }
+    .footer-logo{
+        width: 53.59px;
+        height: 31.69px;
+        margin-bottom: 11px;
+    }
+    .social-media{
+        margin-bottom: 35px;
+    }
+    .social-icon{
+        width: 15.38px;
+        height: 15.38px;
+        margin-right: 10px;
+    }
+    .contact-item{
+        margin-top: 14px;
+        margin-bottom: -5px;
+    }
+    .top0{
+        margin-top: 0px;
+    }
+    .contact-icon{
+        width: 12.58px;
+        height: 12.58px;
+        margin-right: 14px;
+
+    }
+    .contact-item p{
+        font-size: 12px;
+    }
+    .synchronization{
+        font-size: 10px;
+        margin-top: 38px;
+    }
+    /* Footer end */
+}
