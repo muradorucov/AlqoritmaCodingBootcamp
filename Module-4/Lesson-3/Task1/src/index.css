@@ -1,0 +1,17 @@
+h3,h5,p{
+    margin: 0;
+    padding: 0;
+}
+.user{
+    width: 40%;
+    font-family: sans-serif;
+    background-color: rgb(37, 33, 33);
+    color: rgb(221, 221, 49);
+    padding: 20px;
+    margin: 7px;
+    border: 1px solid rgb(209, 245, 6);
+}
+.users{
+    text-align: -webkit-center;
+    border: 3px solid red;
+}
