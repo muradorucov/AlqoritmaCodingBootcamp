@@ -1,0 +1,10 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.profile {
+  border: 1px solid black;
+  background-color: yellow;
+  width: 80%;
+  margin: 40px auto;
+}
