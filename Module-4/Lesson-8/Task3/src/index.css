@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .app{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+  }
+  
+  .block{
+    display: inline-grid;
+  }
+  input{
+    height: 30px;
+  }
+  button{
+    height: 40px;
+    background: rgb(59, 39, 235);
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    cursor: pointer;
+  }
+  .button2{
+    height: 40px;
+    background: rgba(59, 39, 235, 0.342);
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    cursor: pointer;
+  }
+  input,textarea,button{
+    margin: 10px 0;
+    border: 1px solid rgb(96, 96, 240);
+    outline: 0;
+    border-radius: 4px;
+  }
