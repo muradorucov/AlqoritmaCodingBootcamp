@@ -1,61 +1,58 @@
 import React from "react";
 
 export default class SignupForm extends React.PureComponent{
-  state ={
+  state={
     nameValue:"",
+    lastNameValue:"",
+    telValue:"",
     emailValue:"",
-    passwordValue:""
+    comment:"",
+    isValid:true
   }
-  nameHandleChange=(event)=>{
-    this.setState({
-      nameValue: event.target.value
-    })
-    console.log(this.state.nameValue)
+  handleSubmit=(event)=>{
+    event.preventDefault();
   }
-  emailHandleChange=(event)=>{
-    this.setState({
-      emailValue: event.target.value
-    })
-    console.log(this.state.emailValue)
+  handleChangeName=(event)=>{
+    this.setState({nameValue: event.target.value});
   }
-  passwordHandleChange=(event)=>{
-    this.setState({
-      passwordValue: event.target.value
-    })
-    console.log(this.state.passwordValue)
+  handleChangeLastName=(event)=>{
+    this.setState({lastNameValue:event.target.value})
   }
-  onClickChange=()=>{
-    this.setState({nameValue:"Murad",emailValue:"oricowmurad@gmail.com",passwordValue:"RWMa5Qyf"})
+  handleChangeTel=(event)=>{
+    this.setState({telValue:event.target.value})
   }
-  onClickDeleteName=()=>{
-    this.setState({nameValue:""})
+  handleChangeEmail=(event)=>{
+    this.setState({emailValue:event.target.value})
   }
-  onClickDeleteEmail=()=>{
-    this.setState({emailValue:""})
+  handleChangeComment=(event)=>{
+    this.setState({comment:event.target.value})
   }
-  onClickDeletePassword=()=>{
-    this.setState({passwordValue:""})
+  valueShowConsole =()=>{
+    alert(`
+    Ad:${this.state.nameValue}, 
+    Soyad: ${this.state.lastNameValue}, 
+    Telefon: ${this.state.telValue}, 
+    Email: ${this.state.emailValue},
+    Comment:${this.state.comment}`
+    )
   }
   render(){
-    let {nameValue,emailValue,passwordValue}=this.state
+    let {nameValue,lastNameValue,telValue,emailValue,comment,isValid}=this.state;
+    if(nameValue==="" || lastNameValue==="" || telValue==="" || emailValue==="" || comment===""){
+      isValid=true
+    }else{
+      isValid=false
+    }
     return(
-      <div>
-        <label htmlFor="name">
-          Name: <input id="name" onChange={this.nameHandleChange} value={nameValue} />
-        </label>
-        <button onClick={this.onClickDeleteName}>x</button>
-        <br></br>
-        <label htmlFor="email">
-          Email: <input id="email" onChange={this.emailHandleChange} value={emailValue}/>
-        </label>
-        <button onClick={this.onClickDeleteEmail}>x</button>
-        <br></br>
-        <label htmlFor="password">
-          Password: <input id="password" onChange={this.passwordHandleChange} value={passwordValue}/>
-        </label>
-        <button onClick={this.onClickDeletePassword}>x</button>
-        <br></br>
-        <button onClick={this.onClickChange}>Change Default Value</button>
+      <div className="app">
+        <form onSubmit={this.handleSubmit} className="block">
+          Name: <input type="text" value={nameValue} onChange={this.handleChangeName} />
+          Lastname: <input type="text" value={lastNameValue} onChange={this.handleChangeLastName}/>
+          Phone:<input type="tel" value={telValue} onChange={this.handleChangeTel}/>
+          E-mail:<input type="email" value={emailValue} onChange={this.handleChangeEmail}/>
+          Comment:<textarea rows="4" cols="40"  value={comment} onChange={this.handleChangeComment}/>
+          <button type="submit" className={isValid ? "button2" : "button"} disabled={isValid} onClick={this.valueShowConsole}>Submit</button>
+        </form>
       </div>
     )
   }
